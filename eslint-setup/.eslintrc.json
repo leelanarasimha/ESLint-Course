@@ -1,0 +1,32 @@
+{
+    "env": {
+        "browser": true
+    },
+    "extends": "eslint:recommended",
+     "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-restricted-imports": ["error", "underscore"],
+        "eqeqeq": "error",
+        "no-console": "error",
+        "consistent-return": "error",
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}
