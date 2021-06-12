@@ -9,9 +9,12 @@
     },
     "rules": {
         "no-restricted-imports": ["error", "underscore"],
+        "find-fixme": "error",
+        "find-payments": "error",
         "eqeqeq": "error",
         "no-console": "error",
         "consistent-return": "error",
+        "no-unused-vars": "off",
         "indent": [
             "error",
             4
