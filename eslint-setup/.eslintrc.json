@@ -9,7 +9,8 @@
     },
     "rules": {
         "no-restricted-imports": ["error", "underscore"],
-        "find-fixme": "error",
+        "find-fixme": ["error", "fixme", "todo", "leela"],
+        "funcparam": "error",
         "find-payments": "error",
         "eqeqeq": "error",
         "no-console": "error",

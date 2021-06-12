@@ -1,13 +1,11 @@
 module.exports = {
     create(context) {
-
+   
         function findComments(comment) {
-            if (comment.value.toLowerCase().indexOf('fixme') !== -1) {
-                context.report(comment, "FIXMe is not allowed in comments");
+            if (context.options.indexOf(comment.value.toLowerCase()) >= 0) {
+                context.report(comment, `${comment.value} is not allowed in the comments`);
             }
-             if (comment.value.toLowerCase().indexOf('todo') !== -1) {
-                context.report(comment, "TODO is not allowed in comments");
-            }
+
         }
 
         return {
@@ -17,7 +15,7 @@ module.exports = {
                 for (let comment of comments) {
                     findComments(comment);
                 }
-            }
-        }
-    }
-}
+            },
+        };
+    },
+};
