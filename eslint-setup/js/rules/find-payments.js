@@ -5,11 +5,13 @@ module.exports = {
                 if (node.callee.name === 'getPayments') {
                     context.report({
                         node: node,
-                        message: "getPayments is deprecated. use getlatestpayments"
+                        message: 'getPayments is deprecated. use getlatestpayments',
+                        fix: function (fixer) {
+                            return fixer.replaceText(node.callee, 'getLatestPayments');
+                        },
                     });
                 }
-
-            }
-        }
-    }
-}
+            },
+        };
+    },
+};

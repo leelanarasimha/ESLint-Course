@@ -5,9 +5,7 @@ function getPayments() {
 }
 //leela
 
-// function getLatestPayments() {
-//     return 'latest payments';
-// }
-
-
-// getPayments();
+function getLatestPayments() {
+    return 'latest payments';
+}
+getLatestPayments();

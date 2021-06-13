@@ -3,7 +3,7 @@
         "browser": true
     },
     "extends": "eslint:recommended",
-     "parserOptions": {
+    "parserOptions": {
         "ecmaVersion": 6,
         "sourceType": "module"
     },
@@ -16,21 +16,9 @@
         "no-console": "error",
         "consistent-return": "error",
         "no-unused-vars": "off",
-        "indent": [
-            "error",
-            4
-        ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
-        "quotes": [
-            "error",
-            "single"
-        ],
-        "semi": [
-            "error",
-            "always"
-        ]
+        "indent": ["error", 4],
+        "linebreak-style": ["error", "unix"],
+        "quotes": ["error", "single"],
+        "semi": ["error", "always"]
     }
 }
