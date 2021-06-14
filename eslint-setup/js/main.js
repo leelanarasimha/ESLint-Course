@@ -3,7 +3,6 @@ function checkPositive(number) {
         return true;
     }
     return false;
-
 }
 
 checkPositive(10);

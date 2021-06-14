@@ -1,4 +1,4 @@
-let getBooks = new Promise((resolve, reject) => {
+const getBooks = new Promise((resolve, reject) => {
     resolve('book details');
 });
 

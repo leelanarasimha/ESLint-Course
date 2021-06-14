@@ -1,5 +1,5 @@
 function getPayments() {
-    //the code as FIXME possible
+    // the code as FIXME possible
     return 1;
 }
 
