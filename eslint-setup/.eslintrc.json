@@ -1,19 +1,22 @@
 {
     "env": {
-        "browser": true
+        "browser": true,
+        "es2021": true
     },
     "extends": "eslint:recommended",
     "parserOptions": {
-        "ecmaVersion": 6,
+        "ecmaVersion": 12,
         "sourceType": "module"
     },
+    "plugins": ["promise"],
     "rules": {
         "no-restricted-imports": ["error", "underscore"],
         "find-fixme": ["error", "fixme", "todo", "leela"],
+        "promise/catch-or-return": "error",
         "funcparam": "error",
         "find-payments": "error",
         "eqeqeq": "error",
-        "no-console": "error",
+        "no-console": "off",
         "consistent-return": "error",
         "no-unused-vars": "off",
         "indent": ["error", 4],

@@ -2,7 +2,7 @@ import lodash from 'lodash';
 
 var arr = ['apples', 'grapes', 'oranges'];
 
-//TODO
+
 
 lodash.findIndex(arr, 'grapes');
 

@@ -6,4 +6,4 @@ function checkPositive(number) {
 
 }
 
-checkPositive('10');
+checkPositive(10);
