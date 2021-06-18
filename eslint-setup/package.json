@@ -1,23 +1,23 @@
 {
-  "name": "eslint-setup",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint js --rulesdir js/rules",
-    "lint-fix": "eslint js --fix --rulesdir js/rules"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "eslint": "^7.28.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-promise": "^5.1.0"
-  },
-  "dependencies": {
-    "lodash": "^4.17.21",
-    "underscore": "^1.13.1"
-  }
+    "name": "eslint-setup",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint js",
+        "lint-fix": "eslint js --fix"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^7.28.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-promise": "^5.1.0"
+    },
+    "dependencies": {
+        "lodash": "^4.17.21",
+        "underscore": "^1.13.1"
+    }
 }

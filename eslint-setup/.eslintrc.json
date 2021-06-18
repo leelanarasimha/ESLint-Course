@@ -8,13 +8,13 @@
         "ecmaVersion": 12,
         "sourceType": "module"
     },
-    "plugins": ["promise"],
+    "plugins": ["promise", "leela"],
     "rules": {
         "no-restricted-imports": ["error", "underscore"],
-        "find-fixme": ["error", "fixme", "todo", "leela"],
+        "leela/find-fixme": ["error", "fixme", "todo", "leela"],
+        "leela/funcparam": "error",
+        "leela/find-payments": "error",
         "promise/catch-or-return": "error",
-        "funcparam": "error",
-        "find-payments": "error",
         "eqeqeq": "error",
         "no-console": "off",
         "consistent-return": "error",
